@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+:root {
+    --cor0:#BD2A2E;
+    --cor02:#3B3936;
+    --cor03:#B2BEBF;
+    --cor04:#889C9B;
+    --cor05:#486966;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    min-width: 200px;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+    background-color: var(--cor03);
+    background-image: url(imagens/fotocpipequena.png);
+    background-size: 150px 150px;
+}
+
+header {
+    font-family: 'Lato', Helvetica, sans-serif, Helvetica, sans-serif;
+    font-size: 2em;
+    background-image: linear-gradient(to bottom,#f75d62,#BD2A2E);
+    text-align: center;
+    min-height: 100px;
+    padding: 30px;
+
+}
+
+header > p {
+    font-weight: bolder;
+}
+
+nav {
+    color: white;
+    background-color: rgb(203, 174, 231);
+    max-width: 800px;
+    padding: 10px;
+    background-color: var(--cor02);
+}
+
+nav > a {
+    color: white;
+    padding: 5px;
+}
+
+aside {
+    font-size: 0.8em;
+    padding: 10px;
+
+}
+
+main {
+    min-width: 200px;
+    max-width: 800px;
+    background-color: white;
+    padding: 10px;
+    text-indent: 30px;
+    line-height: 30px;
+    text-align: justify;
+
+}
+
+main h2 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    background-image: linear-gradient(to right,#3B3936, transparent);
+    color: white;
+}
+
+main p {
+    padding: 5px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+}
+
+main ul {
+    list-style-type: square;
+    list-style-position: inside;
+    columns: 2;
+}
+
+img {
+    width: 30%;
+    margin:auto;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: var(--cor02);
+    max-width: 800px;
+    padding: 10px;
+}
+    
