@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&family=Kalam&display=swap');
 
 * {
     margin: 0px;
@@ -7,7 +8,7 @@
 }
 
 html, body {
-    background-color: darkgray;
+    background-color: rgb(129, 125, 125);
     min-height: 100vh;
 }
 
@@ -20,7 +21,7 @@ header {
 }
 
 header  h1 {
-    font-size: 3em;
+    font-size: 10vh;
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -44,51 +45,65 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;*/
     line-height: 2em;
+    font-family: 'Kalam', cursive, Helvetica, sans-serif;
     
-    
+}
+section p {
+    padding-bottom: 2em;
 }
 
 section.normal {
     background-color: white;
     color: black;
     padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 section.imagem {
-    background-color: rgb(56, 56, 56);
+    background-color: rgba(56, 56, 56, 0.618);
     color: white;
 }
 
 section.imagem p {
-    background-color: rgba(0, 0, 0, 0.327);
+    background-color: rgba(0, 0, 0, 0.29);
     width: 400px;
+    text-shadow: 1px 1px 0px black;
 }
 
-section div#box2 {
+section div#img1 {
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right center;
     background-attachment: fixed;
     padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: inset 6px 6px 13px 0px black;
 
 }
 
-section div#box4 {
+section div#img2 {
     background-image: url(imagens/background002.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right center;
     background-attachment: fixed;
     padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 
 main {
     background-color: white;
-    font-size: 2em;
+    font-size: 3.5vh;
     font-family: 'Cousine', monospace, Helvetica, sans-serif;
 }
 
 main p {
-    font-size: 0.8em;
+    font-size: 3.5vh;
 }
 
 footer {
@@ -97,4 +112,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: 'Cousine', Helvetica, sans-serif;
 }
