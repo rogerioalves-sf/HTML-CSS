@@ -19,9 +19,6 @@ body {
     font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
     background-color: var(--cor03);
     background-image: url(imagens/fotocpipequena.png);
-    background-size: cover;
-    background-attachment:fixed;
-    
 }
 
 header {
@@ -49,6 +46,11 @@ nav {
 nav > a {
     color: white;
     padding: 5px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    text-decoration: underline;
 }
 
 aside {
