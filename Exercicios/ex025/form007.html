@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>exemplo de formulario</h1>
+    <form action="cadastro.php" method="post"></form>
+    <p>
+        <label for="iest">Estado</label>
+        <select name="estado" id="iest">
+        <optgroup label="Região Sudeste">
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+        </optgroup>
+    </select> 
+    </p>
+
+    <p>
+        <label for="iprof">Profissão:</label>
+        <input type="text" name="prof" id="iprof" list="listprof">
+        <datalist id="listprof">
+            <option>Administrador</option>
+        </datalist>
+    </p>
+    <p>
+        <label for="img">Mensagem:</label> <br>
+        <textarea name="img" id="img" cols="30" rows="10"></textarea>
+    </p>
+    
+    <P>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+    </P>
+    
+</body>
+</html>
